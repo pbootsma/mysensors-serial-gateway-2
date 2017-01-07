@@ -91,6 +91,7 @@ void setup()
 void presentation()
 {
 	// Present locally attached sensors
+  sendSketchInfo("Serial/USB Gateway ", "1.0");
 }
 
 void loop()
